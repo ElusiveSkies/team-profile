@@ -20,6 +20,13 @@ function addMember() {
         type: "input",
         message: "What is your team member's name?",
         name: "name",
+        validate: (answer) => {
+          if (answer.match(/^[A-Za-z]+$/)) {
+            return true;
+          } else {
+            console.log(" | Please enter your member's name!");
+          }
+        },
       },
       {
         type: "list",
@@ -31,11 +38,25 @@ function addMember() {
         type: "input",
         message: "What is your team member's id?",
         name: "id",
+        validate: (answer) => {
+          if (answer.match(/[0-9]/g)) {
+            return true;
+          } else {
+            console.log(" | Please enter a valid number!");
+          }
+        },
       },
       {
         type: "input",
         message: "What is your team member's email address?",
         name: "email",
+        validate: (answer) => {
+          if (/^[^@]+@\w+(\.\w+)+\w$/.test(answer)) {
+            return true;
+          } else {
+            console.log(" | Please enter a valid email!");
+          }
+        },
       },
     ])
     // Function to determine unique value needed dependent on sub class
