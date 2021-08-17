@@ -43,8 +43,10 @@ This will result in the installation of *inquirer* and *jest*
 Entering the following in the integrated terminal to begin:
 **node index.js**
 
+Video of Usage
 ![Video of Usage](./lib/img/TeamProfileGen.gif)
 
+Video of Tests
 ![Video of Tests](./lib/img/TeamProfileGenTest.gif)
 
 ## License
