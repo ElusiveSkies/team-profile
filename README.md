@@ -6,6 +6,7 @@ Team Profile Generator
 ## Table of Contents
 
 - [Installation](#Installation)
+- [Technology](#Technology)
 - [Usage](#Usage)
 - [License](#License)
 - [Tests](#Tests)
@@ -29,6 +30,14 @@ The values available include the following:
 
 After the values have been entered, meeting the required validation parameters, a page will be displayed with the details of each team member. The email address(es) will open in the default email program. All github profiles will open a new tab for the user's profile.
 
+## Technology
+
+- HTML
+- CSS
+- Javascript
+- Jest
+- Inquirer
+
 ## Installation
 
 From the integrated terminal the user will type:
@@ -51,7 +60,7 @@ Video of Tests
 
 ## License
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Tests
 
